@@ -1,0 +1,25 @@
+.container {
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.box:nth-child(1) {
+  background-color: pink;
+}
+
+.box:nth-child(2) {
+  background-color: green;
+}
+
+.box:nth-child(3) {
+  background-color: blue;
+}
